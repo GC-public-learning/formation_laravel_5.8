@@ -14,9 +14,9 @@ first of all
 - install 1 text editor for coders (ex: vs code, sublime)
 - install the "laragon" development stack : https://sourceforge.net/projects/laragon/files/releases/4.0/laragon-full.exe/download
 - if you want another php version for windows (version 8) go : https://windows.php.net/download#php-8.0
-	<br/>&ensp . download the zip win32 x64 version if you are in 64 bits and prefere safe version
-	<br/>&ensp . go to laragon/bin/php and extract the zip in a folder with the zip name
-	<br/>&ensp . open laragon, menu -> php/version/ choose the new one
+	<br/>&emsp; . download the zip win32 x64 version if you are in 64 bits and prefere safe version
+	<br/>&ensp; . go to laragon/bin/php and extract the zip in a folder with the zip name
+	<br/>&ensp;. open laragon, menu -> php/version/ choose the new one
 - install the "composer" dependency manager for php  : https://getcomposer.org/
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp. select the good path with the php version you want to use -> laragon/bin/php/version you want/php.exe
 - open laragon -> terminal
