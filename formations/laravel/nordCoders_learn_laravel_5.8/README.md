@@ -14,21 +14,21 @@ first of all
 - install 1 text editor for coders (ex: vs code, sublime)
 - install the "laragon" development stack : https://sourceforge.net/projects/laragon/files/releases/4.0/laragon-full.exe/download
 - if you want another php version for windows (version 8) go : https://windows.php.net/download#php-8.0
-	<br/>&emsp; . download the zip win32 x64 version if you are in 64 bits and prefere safe version
-	<br/>&ensp; . go to laragon/bin/php and extract the zip in a folder with the zip name
-	<br/>&ensp;. open laragon, menu -> php/version/ choose the new one
+	<br/>&emsp;. download the zip win32 x64 version if you are in 64 bits and prefere safe version
+	<br/>&emsp;. go to laragon/bin/php and extract the zip in a folder with the zip name
+	<br/>&emsp;. open laragon, menu -> php/version/ choose the new one
 - install the "composer" dependency manager for php  : https://getcomposer.org/
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp. select the good path with the php version you want to use -> laragon/bin/php/version you want/php.exe
+	<br/>&emsp;. select the good path with the php version you want to use -> laragon/bin/php/version you want/php.exe
 - open laragon -> terminal
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp . tape command line : composer global require laravel/installer
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp . copy path generated on the console : C:/Users/jo/AppData/Roaming/Composer (in this case)
+	<br/>&emsp;. tape command line : composer global require laravel/installer
+	<br/>&emsp;. copy path generated on the console : C:/Users/jo/AppData/Roaming/Composer (in this case)
 - go to environment path
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp.on the top -> new
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspvariable name : LaravelInstaller
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspvariable value : paste the copied path with additional values on the end "/vendor/bin"
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp-> C:/Users/jo/AppData/Roaming/Composer/vendor/bin
+	<br/>&emsp;.on the top -> new
+		<br/>&emsp;&emsp;variable name : LaravelInstaller
+		<br/>&emsp;&emsp;variable value : paste the copied path with additional values on the end "/vendor/bin"
+			<br/>&emsp;&emsp;&emsp-> C:/Users/jo/AppData/Roaming/Composer/vendor/bin
 - close and reopen terminal
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp. tape command lines :
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp- rm index.php
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp- laravel new blog
+	<br/>&emsp;. tape command lines :
+		<br/>&emsp;&emsp;- rm index.php
+		<br/>&emsp;&emsp;- laravel new blog
 - change the home page -> menu laragon/www/switch document root -> laragon/www/blog/public
