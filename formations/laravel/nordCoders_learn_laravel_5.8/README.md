@@ -1,0 +1,34 @@
+# laravel formation
+
+channel youtube of creator : Nord Coders https://www.youtube.com/channel/UC36hi0WMeiR8HpUy-A2s4vQ
+
+link playlist laravel class : https://www.youtube.com/watch?v=2m-A0PYuj6E&list=PLeeuvNW2FHVgvC-PdSfi309DbDMoEswiT
+
+thanks to the youtuber "Nord Coders" ^^
+
+
+first of all
+--------------
+
+- use windows 10
+- install 1 text editor for coders (ex: vs code, sublime)
+- install the "laragon" development stack : https://sourceforge.net/projects/laragon/files/releases/4.0/laragon-full.exe/download
+- if you want the last php version for windows go : https://windows.php.net/download#php-8.0 
+	. download the zip win32 x64 version if you are in 64 bits and prefere safe version
+	. go to laragon/bin/php and extract the zip in a folder with the zip name
+	. open largon, menu -> php/version/ choose the new one
+- install the "composer" dependency manager for php  : https://getcomposer.org/
+	. select the good path with the php version you want to use -> laragon/bin/php/version you want/php.exe
+- open laragon -> terminal
+	. tape command line : composer global require laravel/installer
+	. copy path generated on the console : C:/Users/jo/AppData/Roaming/Composer (in this case)
+- go to environment path
+	.on the top -> new
+		variable name : LaravelInstaller
+		variable value : paste the copied path with additional values on the end "/vendor/bin"
+			-> C:/Users/jo/AppData/Roaming/Composer/vendor/bin
+- close and reopen terminal
+	. tape command lines :
+		- rm index.php
+		- laravel new blog
+- change the home page -> menu laragon/www/switch document root -> laragon/www/blog/public
