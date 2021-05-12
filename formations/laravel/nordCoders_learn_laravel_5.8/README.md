@@ -16,7 +16,7 @@ first of all
 - if you want another php version for windows (version 8) go : https://windows.php.net/download#php-8.0
 	<br/>&emsp;. download the zip win32 x64 version if you are in 64 bits and prefere safe version
 	<br/>&emsp;. go to laragon/bin/php and extract the zip in a folder with the zip name
-	<br/>&emsp;. open laragon, menu -> php/version/ choose the new one
+	<br/>&emsp;. open laragon menu -> php/version/ choose the new one
 	<br/>&emsp;. ! with php 8 you have to change 2 files : 
 		<br/>&emsp;&emsp; laragon menu -> apache/dir:conf/mod_php.conf
 			<br/>&emsp;&emsp;&emsp; change "php8_module" to "php_module"
