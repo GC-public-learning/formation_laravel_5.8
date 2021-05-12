@@ -40,7 +40,7 @@ first of all
 
 infos
 --------------
-the formation consists to create chapter by chapter an application web with the "Laravel" framework.
+The formation consists to create chapter by chapter an application web with the "Laravel" framework.
 So i created a repos that containts an empty "Laravel" project that will be completed gradually.
-all the chapters are files.md in which you'll find the links of the modified files from the repos that containts de project "1st_laravel_project"
-<br/>files are linked with the commit i used to close the chapter. ("copy permalink" option) so the links doesnt' necessarily represent the actual state of a file... 
+all the chapters are files.md in which you'll find the links of the modified files from the repos that containts de project "1st_laravel_project".
+<br/>Files are linked with the commit i used to close the chapter. ("copy permalink" option) so the links doesnt' necessarily represent the actual state of a file... 
