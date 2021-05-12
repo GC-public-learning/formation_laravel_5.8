@@ -28,7 +28,7 @@ first of all
 	<br/>&emsp;. tape command line : composer global require laravel/installer
 	<br/>&emsp;. copy path generated on the console : C:/Users/username/AppData/Roaming/Composer (in this case)
 - go to environment path
-	<br/>&emsp;.on the top -> new
+	<br/>&emsp;. on the top -> new
 		<br/>&emsp;&emsp;variable name : LaravelInstaller
 		<br/>&emsp;&emsp;variable value : paste the copied path with additional values on the end "/vendor/bin"
 			<br/>&emsp;&emsp;&emsp;-> C:/Users/username/AppData/Roaming/Composer/vendor/bin
