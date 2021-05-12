@@ -37,3 +37,10 @@ first of all
 		<br/>&emsp;&emsp;- rm index.php
 		<br/>&emsp;&emsp;- laravel new blog
 - change the home page -> menu laragon/www/switch document root -> laragon/www/blog/public
+
+infos
+--------------
+the formation consists to create chapter by chapter an application web with the "Laravel" framework.
+So i created a repos that containts an empty "Laravel" project that will be completed gradually.
+all the chapters are files.md in which you'll find the links of the modified files from the repos that containts de project "1st_laravel_project"
+files are linked with the commit i used to close the chapter. ("copy permalink" option) so the links doesnt' necessarily represent the actual state of a file... 
