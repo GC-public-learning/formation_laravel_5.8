@@ -21,12 +21,12 @@ first of all
 	<br/>&emsp;. select the good path with the php version you want to use -> laragon/bin/php/version you want/php.exe
 - open laragon -> terminal
 	<br/>&emsp;. tape command line : composer global require laravel/installer
-	<br/>&emsp;. copy path generated on the console : C:/Users/jo/AppData/Roaming/Composer (in this case)
+	<br/>&emsp;. copy path generated on the console : C:/Users/username/AppData/Roaming/Composer (in this case)
 - go to environment path
 	<br/>&emsp;.on the top -> new
 		<br/>&emsp;&emsp;variable name : LaravelInstaller
 		<br/>&emsp;&emsp;variable value : paste the copied path with additional values on the end "/vendor/bin"
-			<br/>&emsp;&emsp;&emsp;-> C:/Users/jo/AppData/Roaming/Composer/vendor/bin
+			<br/>&emsp;&emsp;&emsp;-> C:/Users/username/AppData/Roaming/Composer/vendor/bin
 - close and reopen terminal
 	<br/>&emsp;. tape command lines :
 		<br/>&emsp;&emsp;- rm index.php
