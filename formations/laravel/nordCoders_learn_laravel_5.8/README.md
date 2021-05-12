@@ -26,7 +26,7 @@ first of all
 	<br/>&emsp;.on the top -> new
 		<br/>&emsp;&emsp;variable name : LaravelInstaller
 		<br/>&emsp;&emsp;variable value : paste the copied path with additional values on the end "/vendor/bin"
-			<br/>&emsp;&emsp;&emsp-> C:/Users/jo/AppData/Roaming/Composer/vendor/bin
+			<br/>&emsp;&emsp;&emsp;-> C:/Users/jo/AppData/Roaming/Composer/vendor/bin
 - close and reopen terminal
 	<br/>&emsp;. tape command lines :
 		<br/>&emsp;&emsp;- rm index.php
