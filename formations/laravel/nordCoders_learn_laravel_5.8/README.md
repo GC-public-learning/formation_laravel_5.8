@@ -17,8 +17,11 @@ first of all
 	<br/>&emsp;. download the zip win32 x64 version if you are in 64 bits and prefere safe version
 	<br/>&emsp;. go to laragon/bin/php and extract the zip in a folder with the zip name
 	<br/>&emsp;. open laragon, menu -> php/version/ choose the new one
-	<br/>&emsp;. make sure you you are running with the new php version, check in the laragon terminal 
-		<br/>&emsp;&emsp; -> php -v. Restart laragon if it isn't the case, then "start all" in laragon and go "web"
+	<br/>&emsp;. ! with php 8 you have to change 2 files : 
+		<br/>&emsp;&emsp; laragon menu -> apache/dir:conf/mod_php.conf
+			<br/>&emsp;&emsp;&emsp change "php8_module" to "php_module"
+		br/>&emsp;&emsp; laragon menu -> php/php.ini/
+			<br/>&emsp;&emsp;&emsp active openssl mode -> find the line ";extension=openssl" and remove the ';'
 - install the "composer" dependency manager for php  : https://getcomposer.org/
 	<br/>&emsp;. select the good path with the php version you want to use -> laragon/bin/php/version you want/php.exe
 - open laragon -> terminal
