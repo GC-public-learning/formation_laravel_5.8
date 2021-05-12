@@ -17,6 +17,8 @@ first of all
 	<br/>&emsp;. download the zip win32 x64 version if you are in 64 bits and prefere safe version
 	<br/>&emsp;. go to laragon/bin/php and extract the zip in a folder with the zip name
 	<br/>&emsp;. open laragon, menu -> php/version/ choose the new one
+	<br/>&emsp;. make sure you you are running with the new php version, check in the laragon terminal 
+		<br/>&emsp;&emsp; -> php -v restart laragon if it isn't the case, then start all in laragon and go web
 - install the "composer" dependency manager for php  : https://getcomposer.org/
 	<br/>&emsp;. select the good path with the php version you want to use -> laragon/bin/php/version you want/php.exe
 - open laragon -> terminal
