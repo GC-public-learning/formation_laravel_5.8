@@ -3,10 +3,12 @@
 
 use the route options to set the data to send and get back the data from a view with the templating engine "blade"
 
-- created folder :
+created folder :
+----------------
   <br/>&emsp;- [resources/views/customers/](https://github.com/Geoffrey-Carpentier/1st_laravel_project/tree/main/resources/views/customers)
   
- - modified files :
+modified files :
+----------------
   [routes/](https://github.com/Geoffrey-Carpentier/1st_laravel_project/tree/main/routes)
   <br/>&emsp;- [web.php](https://github.com/Geoffrey-Carpentier/1st_laravel_project/blob/abf5f695bcfcac035068633ab5a7850252546823/routes/web.php)
 
