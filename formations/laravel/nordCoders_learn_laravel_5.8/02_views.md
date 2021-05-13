@@ -1,6 +1,6 @@
 # views
 
-use de views folders to manage the different internet page that will be called by the routes on the folder [recources/views/](https://github.com/Geoffrey-Carpentier/1st_laravel_project/tree/main/resources/views)
+use de views folders to manage the different internet pages that will be called by the routes on the folder [recources/views/](https://github.com/Geoffrey-Carpentier/1st_laravel_project/tree/main/resources/views)
 
 created files :
 ----------------
