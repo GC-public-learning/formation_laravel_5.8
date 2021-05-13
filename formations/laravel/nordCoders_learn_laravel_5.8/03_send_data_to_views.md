@@ -3,7 +3,7 @@
 
 use the route options to set the data to send and get back the data from a view with the templating engine "blade"
 
-created folder :
+created folders :
 ----------------
 [resources/views/customers/](https://github.com/Geoffrey-Carpentier/1st_laravel_project/tree/main/resources/views/customers)
   
