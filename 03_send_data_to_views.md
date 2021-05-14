@@ -1,7 +1,7 @@
 
 # send data to views
 
-use the route options to set the data to send and get back the data from a view with the templating engine "blade"
+use the route options (not conventional, better way later...) to set the data to send and get back the data from a view with the templating engine "blade"
 
 created folders :
 ----------------
