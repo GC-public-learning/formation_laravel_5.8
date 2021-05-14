@@ -5,7 +5,7 @@ Controller act as a mediator between view and model. it is responsible to contro
 It maps the user action into model updates.The controller layer is helpful to select the most appropriate view and delivers it to the user.
 
 ### to make a new controller :
-&emsp;- open laravel terminal and tape : php artisan make:controller ControllerName (CustomersController)
+&emsp;- open laravel terminal and tape : php artisan make:controller <ControllerName> ("CustomersController" in this case)
 
 ### new file with class is automaticaly created here : [app/Http/Controllers/](https://github.com/Geoffrey-Carpentier/1st_laravel_project/tree/main/app/Http/Controllers)
 
