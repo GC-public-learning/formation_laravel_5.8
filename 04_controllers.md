@@ -7,7 +7,7 @@ It maps the user action into model updates.The controller layer is helpful to se
 ### to make a new controller :
 &emsp;- open laravel terminal and tape : php artisan make:controller <ControllerName> ("CustomersController" in this case)
 
-### new file with class is automaticaly created here : [app/Http/Controllers/](https://github.com/Geoffrey-Carpentier/1st_laravel_project/tree/main/app/Http/Controllers)
+### new file with class is automatically created here : [app/Http/Controllers/](https://github.com/Geoffrey-Carpentier/1st_laravel_project/tree/main/app/Http/Controllers)
 
 created files :
 ----------------
