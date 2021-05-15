@@ -6,7 +6,7 @@
 ### to use bootstrap :
 - go to "get started" page on bootstrap site : https://getbootstrap.com/docs/5.0/getting-started/introduction/
 - for css copy the link on the site mainpage on your own pages : 
-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+- \<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"\>
 - search a tamplate you want to use and copy the html code (a navbar for this chapter)
 
 ### to use layouts : 
