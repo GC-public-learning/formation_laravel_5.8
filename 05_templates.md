@@ -24,5 +24,5 @@ modified files :
 <br/>&emsp;- [contact.blade.php](https://github.com/Geoffrey-Carpentier/1st_laravel_project/blob/7ceef6b6299b8a8be6cc91740a9991a861662510/resources/views/contact.blade.php)
 <br/>&emsp;- [infos.blade.php](https://github.com/Geoffrey-Carpentier/1st_laravel_project/blob/7ceef6b6299b8a8be6cc91740a9991a861662510/resources/views/infos.blade.php)
 <br/>&emsp;- [welcome.blade.php](https://github.com/Geoffrey-Carpentier/1st_laravel_project/blob/7ceef6b6299b8a8be6cc91740a9991a861662510/resources/views/welcome.blade.php) 
-[resources/views/customers/](https://github.com/Geoffrey-Carpentier/1st_laravel_project/tree/main/resources/views/customers)
+<br/>[resources/views/customers/](https://github.com/Geoffrey-Carpentier/1st_laravel_project/tree/main/resources/views/customers)
 <br/>&emsp;- [index.blade.php](https://github.com/Geoffrey-Carpentier/1st_laravel_project/blob/7ceef6b6299b8a8be6cc91740a9991a861662510/resources/views/customers/index.blade.php)
