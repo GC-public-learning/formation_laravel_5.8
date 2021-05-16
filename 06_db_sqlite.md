@@ -5,7 +5,8 @@
 1) make a .sqlite file in the database folder
 2) modify ".env" file on the project root-> DB_CONNECTION=sqliteand delet the rest of DB params
 3) modify "php.ini" file on your php folder and active the line  -> extension=pdo_sqlite
-4) configure the migrationon the laragon terminal ->
+4) restart laragon
+5) configure the migration on the laragon terminal ->
 - php artisan migrate
 - php artisan make:model Customer -m 
 <br/>&emsp; 2 files created :
