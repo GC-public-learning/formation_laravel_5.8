@@ -40,5 +40,5 @@ modified files :
 [app/Http/Controllers/](https://github.com/Geoffrey-Carpentier/1st_laravel_project/tree/main/app/Http/Controllers)
 <br/>&emsp;- [CustomersController.php](https://github.com/Geoffrey-Carpentier/1st_laravel_project/blob/6f6097c592cbb877a1129940c20061f5580aee3f/app/Http/Controllers/CustomersController.php)
 
-<br/><br/>[resources/views/customers/](https://github.com/Geoffrey-Carpentier/1st_laravel_project/tree/main/resources/views/customers)
+<br/>[resources/views/customers/](https://github.com/Geoffrey-Carpentier/1st_laravel_project/tree/main/resources/views/customers)
 <br/>&emsp;- [index.blade.php](https://github.com/Geoffrey-Carpentier/1st_laravel_project/blob/6f6097c592cbb877a1129940c20061f5580aee3f/resources/views/customers/index.blade.php)
