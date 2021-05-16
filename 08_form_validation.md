@@ -1,10 +1,10 @@
 
 # form validation
 
-use the functions integrated in lavarel and bootstrap to easily handle the values inserted by the user
+use the functions integrated in "Lavarel" and "Bootstrap" to easily handle the values inserted by the user
 <br/>- chek Lavarel doc in the validation section to found the error you want to handle 
 <br/><br/> Available Validation Rules -> required (handle the case when the request value is empty or null
-<br/>- go to bootstrap validation form section to retrieve the classname you need to add styles and messages when a error is coming
+<br/>- go to bootstrap validation form section to retrieve the classnames you need to add styles and messages when a error is coming
 
 modified files :
 ----------------
