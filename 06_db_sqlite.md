@@ -14,7 +14,7 @@
 <br/>&emsp;&emsp; modify this file and add rows you want to create on the "create place" ->
 <br/>&emsp;&emsp;&emsp; - $table->string('name');
 <br/>&emsp;&emsp;&emsp; - in the terminal -> php artisan migrate:refresh
-5) use tinker (test environement) -> terminal -> php artisan tinker
+5) use tinker (test environement) in order to create records on the table created -> terminal -> php artisan tinker
 <br/>&emsp;- $customer = new App\Models\Customer();
 <br/>&emsp;- $customer->name = "Marc";
 <br/>&emsp;- $customer->save();
