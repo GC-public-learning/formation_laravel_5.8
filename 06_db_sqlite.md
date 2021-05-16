@@ -23,7 +23,7 @@
 <br/>&emsp;- $customer->save();
 <br/>&emsp;- App\Models\Customer::all();
 <br/>&emsp; the console should be display the 2 created objects :
-<br/>&emsp; <img src="https://github.com/Geoffrey-Carpentier/1st_laravel_project/blob/main/captures/tinker_display_created_customers.JPG" alt="capture customers", width="200">
+<br/>&emsp; <img src="https://github.com/Geoffrey-Carpentier/1st_laravel_project/blob/main/captures/tinker_display_created_customers.JPG" alt="capture customers" width="200">
 <br/>&emsp; exit;
 6) modify the customers controller and the customers view to retrieve data from model correctly
 
