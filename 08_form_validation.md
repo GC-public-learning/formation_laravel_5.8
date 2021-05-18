@@ -3,7 +3,7 @@
 
 use the functions integrated in "Lavarel" and "Bootstrap" to easily handle the values inserted by the user
 - check Lavarel doc in the validation section to found the error you want to handle 
-<br/>&emsp;- Available Validation Rules -> required (handle the case when the request value is empty or null
+<br/>&emsp;- Available Validation Rules -> required (handle the case when the request value is empty or null)
 - go to bootstrap validation form section to retrieve the classnames you need to add styles and messages when a error is coming
 
 modified files :
