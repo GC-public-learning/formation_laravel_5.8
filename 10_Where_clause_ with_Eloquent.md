@@ -1,5 +1,5 @@
 
-Where clause with Eloquent 
+# Where clause with Eloquent 
 
 the goal is to define a status for each customer in order to get a list of customers filtred by status.
 
