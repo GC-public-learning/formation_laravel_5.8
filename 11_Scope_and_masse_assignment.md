@@ -14,8 +14,9 @@ public function scopeStatus($query) {
 - $customer = new Customer() and $customer->save() replaced by Customer::create($array);
 - dont forget to add the status apart because it can be managed with the validate method (param of a check box exist or not)
 4) modify the customer model to accept the new array
-- protected $fillable = ['name', 'email', 'status'];
-
+~~~
+protected $fillable = ['name', 'email', 'status'];
+~~~
 
 modified files :
 ----------------
