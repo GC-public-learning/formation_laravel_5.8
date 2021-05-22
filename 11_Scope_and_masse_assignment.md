@@ -15,7 +15,7 @@ public function scopeStatus($query) {
 $a = request()->validate([
     		'name' => 'required|min:3',
             'email' => 'required|email' # rules combination
-        ]);
+     ]);
  ~~~
  dont forget to add the status apart because it can be managed with the validate method (param of a check box exist or not)
  ~~~
