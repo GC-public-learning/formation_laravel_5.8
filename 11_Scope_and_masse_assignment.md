@@ -29,12 +29,7 @@ Customer::create($a);
 
 4) modify the customer model to accept the new array
 ~~~
-class Customer extends Model
-{
-	protected $fillable = ['name', 'email', 'status'];
-    
-    ...
-}
+protected $fillable = ['name', 'email', 'status'];
 ~~~
 
 modified files :
