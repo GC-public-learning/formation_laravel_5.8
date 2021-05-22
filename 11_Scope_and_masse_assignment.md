@@ -20,9 +20,7 @@ public function scopeStatus($query) {
 modified files :
 ----------------
 
-3 modified files : 
-
-https://github.com/Geoffrey-Carpentier/1st_laravel_project/commit/6a040a296d71b8a259582bb464380aa328abb06a
+3 modified files : https://github.com/Geoffrey-Carpentier/1st_laravel_project/commit/6a040a296d71b8a259582bb464380aa328abb06a
 
 
 
