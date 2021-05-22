@@ -9,8 +9,8 @@ public function scopeStatus($query) {
     return $query->where('status', True)->get();
 }
 ~~~
-3) change the name of the nickname parameter on the view in order it correspond with the name from the table customer
-4) use the array returned by the request validate method to directly insert date in the new created object (in the "method store()")
+2) change the name of the nickname parameter on the view in order it correspond with the name from the table customer
+3) use the array returned by the request validate method to directly insert date in the new created object (in the "method store()")
 ~~~
 $customer = new Customer() and $customer->save()
 ~~~
