@@ -11,9 +11,9 @@ public function scopeStatus($query) {
 ~~~
 3) change the name of the nickname parameter on the view in order it correspond with the name from the table customer
 4) use the array returned by the request validate method to directly insert date in the new created object (in the "method store()")
-'''
+~~~
 $customer = new Customer() and $customer->save() replaced by Customer::create($array);
-'''
+~~~
 - dont forget to add the status apart because it can be managed with the validate method (param of a check box exist or not)
 4) modify the customer model to accept the new array
 ~~~
