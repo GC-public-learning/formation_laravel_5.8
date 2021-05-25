@@ -49,7 +49,7 @@ App\Models\Company::create(['name' => 'My new company 2'])
 5) go to the laravel Eloquent: Relationships web page to get the code to create new realtionships
 <br>("one to many") because you want each company has many customers and one customer is attached on one company
 <br> copy the comments method and place it on the model "Company" and modify it:
-"""
+~~~
 <?php
 
 use App\Models\Customer;
@@ -67,10 +67,10 @@ class Company extends Model {
     }
 }
 
-"""
+~~~
 6) copy the "post"method from the same page into your customer model this case and modify it in order to retrieve
 the company attached to the client :
-"""
+~~~
 <?php
 
 use App\Models\Company;
@@ -95,7 +95,7 @@ class Customer extends Model {
     }
 }
 
-"""
+~~~
 7) add the foreign key on the "customers" table by adding new line on the create method from
  "create customers migration file"
 ~~~
