@@ -140,9 +140,9 @@ $table->unsignedInteger('company_id');
 12) create severals clients with the form on the customer view to test if everything is alright
 ~~~
 13) modify the view to display the company name instead of the email
-"""
+~~~
 <li>{{$c->name}} <em class="text-muted">{{$c->company->name}}</em></li>
-"""
+~~~
 
 modified & created files :
 ----------------
