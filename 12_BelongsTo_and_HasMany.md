@@ -136,7 +136,7 @@ $table->unsignedInteger('company_id');
 ~~~
 11) recreate manually companies records with tinker because the "refresh" before has ereased all the data in the db
 
-12) go to the "customers" controller and add new rule for de company id in the "store" function :
+12) go to the "customers" controller and add new rule for the company id in the "store" function :
 ~~~
 'company_id' => 'required|integer'
 
