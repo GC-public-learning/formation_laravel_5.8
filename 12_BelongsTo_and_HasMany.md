@@ -136,9 +136,9 @@ $table->unsignedInteger('company_id');
 11) go to the "customers" controller and add new rule for the company id in the "store" function :
 ~~~
 'company_id' => 'required|integer'
-
-12) create severals clients with the form on the customer view to test if everything is alright
 ~~~
+12) create severals clients with the form on the customer view to test if everything is alright
+
 13) modify the view to display the company name instead of the email
 ~~~
 <li>{{$c->name}} <em class="text-muted">{{$c->company->name}}</em></li>
