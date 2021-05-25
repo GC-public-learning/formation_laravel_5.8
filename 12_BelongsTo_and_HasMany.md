@@ -97,15 +97,12 @@ class Customer extends Model {
 
 ~~~
 7) add the foreign key on the "customers" table by adding new line on the create method from
- "create customers migration file"
-~~~
-
-~~~
-8) in terminal :
+ "create customers migration file
+in terminal :
 ~~~
 $table->unsignedInteger('company_id');
 ~~~
-9) modify the customers view to display new infos
+8) modify the customers view to display new infos
 - add a form-select with error handling to select the companies
 ~~~
 <div class="form-group">
@@ -123,7 +120,7 @@ $table->unsignedInteger('company_id');
    	@enderror
 </div>
 ~~~
-10) modify the "list" method from the customers controller to handle the new data :
+9) modify the "list" method from the customers controller to handle the new data :
 ~~~
  public function list() {
     // filtered request
@@ -134,15 +131,15 @@ $table->unsignedInteger('company_id');
     return view('customers.index', compact('customers','companies'));
     }
 ~~~
-11) recreate manually companies records with tinker because the "refresh" before has ereased all the data in the db
+10) recreate manually companies records with tinker because the "refresh" before has ereased all the data in the db
 
-12) go to the "customers" controller and add new rule for the company id in the "store" function :
+11) go to the "customers" controller and add new rule for the company id in the "store" function :
 ~~~
 'company_id' => 'required|integer'
 
-13) create severals clients with the form on the customer view to test if everything is alright
+12) create severals clients with the form on the customer view to test if everything is alright
 ~~~
-14) modify the view to display the company name instead of the email
+13) modify the view to display the company name instead of the email
 """
 <li>{{$c->name}} <em class="text-muted">{{$c->company->name}}</em></li>
 """
