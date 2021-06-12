@@ -5,30 +5,35 @@
 
 1) go to the controller documentation page from the Laravel site and look an eye on the array with
 the differents actions available by the controller in order to modify our controller with more conventional ways
-<img src="zzzzzzzzzzzzzzz" alt="array controller actions" height="100">
+<img src="https://github.com/Geoffrey-Carpentier/formation_laravel_5.8/blob/main/img/array_controller_actions.JPG" alt="array controller actions" width="400">
 2) rename the list() function on the controller by  index() :
 ~~~
 public function index() {
 ~~~
+
 3) rename the route that acces the hold list() function in web.php :
 ~~~
 Route::get('customers', [CustomersController::class, 'index']);
 ~~~
+
 4) create the acces on the create view on the CustomersController :
 ~~~
 public function create() {
       return view('customers.create');
 }
 ~~~
+
 5) add new route on web.php for the create function
 ~~~
 Route::get('customers/create', [CustomersController::class, 'create']);
 ~~~
+
 6) make a link on the customer index towards the create page
 ~~~
 <!--- use bootstrap class to make a button with the link with a margin of 3--->
 <a href="/customers/create" class="btn btn-primary my-3">new customer</a>
 ~~~
+
 7) modify the "create()" function from the CustomersController to handle the company model used by the form and delete 
 the handling of companies on the "index()" function because we wont need it anymore:
 ~~~
@@ -47,6 +52,7 @@ public function create() {
     return view('customers.create', compact('companies'));
 }
 ~~~
+
 8) make the create view for the customers : in the customers folders create "create.blade.php" and cut the form 
 from the customers index inside it :
 ~~~
@@ -108,6 +114,7 @@ from the customers index inside it :
 @endsection
 
 ~~~
+
 9) if you use the navigation bar to go in another view from the create page there will have an error because the
 links from the layout dont have a slash on the beginning. So just add a slash on each link from the layout.and add 
 a slash on the customers path in the form tag in the field "action"
@@ -117,10 +124,12 @@ a slash on the customers path in the form tag in the field "action"
 <a class="nav-link" href="/contact">Contacts</a>
 <a class="nav-link" href="/infos">Infos</a>
 ~~~
+
 10) modify the variable $customers from in index() function from the CustomersController to retrieve all the client :
 ~~~
 $customers = Customer::all();
 ~~~
+
 11) copy a table model from Boostrap to display with a better way the customers in the "index" customer view :
 ~~~
 @extends('layout')
@@ -151,10 +160,12 @@ $customers = Customer::all();
 </table>
 @endsection
 ~~~
+
 <br/> to show the status if there are only 2 values (boolean) you can use the ternary operator :
 ~~~
 {{$c->status ? "active" : 'inactive'}}
 ~~~
+
 12) add a getter for the status in the "customer" model to get the name of the status instead a number (to handle more than 2 values)
 useless in this case because "status" is boolean. just use the ternary operator before in the view is enough :
 ~~~
