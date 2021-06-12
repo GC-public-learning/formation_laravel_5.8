@@ -24,6 +24,11 @@ first of all
 			<br/>&emsp;&emsp;&emsp; active openssl mode -> find the line ";extension=openssl" and remove the ';'
 - install the "composer" dependency manager for php  : https://getcomposer.org/
 	<br/>&emsp;. select the good path with the php version you want to use -> laragon/bin/php/version you want/php.exe
+- with composer v2 you have to active some extensions in the php.ini to install all the package when you create a laravel project
+~~~
+extension=fileinfo
+extension=mbstring
+~~~
 - open laragon -> terminal
 	<br/>&emsp;. tape command line : composer global require laravel/installer
 	<br/>&emsp;. copy path generated on the console : C:/Users/username/AppData/Roaming/Composer (in this case)
@@ -44,3 +49,11 @@ The formation consists to create chapter by chapter an application web with the 
 So i created a repos that containts an empty "Laravel" project that will be completed gradually.
 all the chapters are files.md in which you'll find the links of the modified files from the repos that containts the project "1st_laravel_project".
 <br/>Files are linked with the commit i used to close the chapter. ("copy permalink" option) so the links don't' necessarily represent the actual state of the files... 
+<br/><br/> Warning ! if you download the repo and want to use it, the files ingored by the .gitignore files must be reinstalled or reconfigured :
+~~~
+the vendor folder -> need to be reinstalled (tip : create a new laravel project with the same name and copy the files on the project whithout overwite data)
+database.sqlite file -> need to be regenerated and do "php artisan migrate" in the console
+.env file -> need to be remodified : reconfigure the db sqlite
+
+~~~
+
