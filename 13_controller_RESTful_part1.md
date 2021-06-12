@@ -5,7 +5,7 @@
 
 1) go to the controller documentation page from the Laravel site and look an eye on the array with
 the differents actions available by the controller in order to modify our controller with more conventional ways
-<img src="https://github.com/Geoffrey-Carpentier/formation_laravel_5.8/blob/main/img/array_controller_actions.JPG" alt="array controller actions" width="400">
+<img src="https://github.com/Geoffrey-Carpentier/formation_laravel_5.8/blob/main/img/array_controller_actions.JPG" alt="array controller actions" width="800">
 2) rename the list() function on the controller by  index() :
 ~~~
 public function index() {
