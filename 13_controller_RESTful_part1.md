@@ -8,7 +8,7 @@ the differents actions available by the controller in order to modify our contro
 <img src="https://github.com/Geoffrey-Carpentier/formation_laravel_5.8/blob/main/img/array_controller_actions.JPG" alt="array controller actions" width="800">
 2) rename the list() function on the controller by  index() :
 ~~~
-public function index() {
+public function index()
 ~~~
 
 3) rename the route that acces the hold list() function in web.php :
