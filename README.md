@@ -50,10 +50,9 @@ So i created a repos that containts an empty "Laravel" project that will be comp
 all the chapters are files.md in which you'll find the links of the modified files from the repos that containts the project "1st_laravel_project".
 <br/>Files are linked with the commit i used to close the chapter. ("copy permalink" option) so the links don't' necessarily represent the actual state of the files... 
 <br/><br/> Warning ! if you download the repo and want to use it, the files ingored by the .gitignore files must be reinstalled or reconfigured :
-~~~
-the vendor folder -> need to be reinstalled (tip : create a new laravel project with the same name and copy the files on the project whithout overwite data)
-database.sqlite file -> need to be regenerated and do "php artisan migrate" in the console
-.env file -> need to be remodified : reconfigure the db sqlite
 
-~~~
+- tip : create a new laravel project with the same name and copy the files on the project downloaded whithout overwite data
+- database.sqlite file -> need to be recreated and do "php artisan migrate" in the console
+- .env file ->  reconfigure the db sqlite
+
 
