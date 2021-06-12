@@ -7,7 +7,7 @@
 the differents actions available by the controller in order to modify our controller with more conventional ways
 <img src="zzzzzzzzzzzzzzz" alt="array controller actions" height="100">
 2) rename the list() function on the controller by  index() :
-~~~ :
+~~~
 public function index() {
 ~~~
 3) rename the route that acces the hold list() function in web.php :
