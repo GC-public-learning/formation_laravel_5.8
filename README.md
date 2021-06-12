@@ -51,7 +51,7 @@ all the chapters are files.md in which you'll find the links of the modified fil
 <br/>Files are linked with the commit i used to close the chapter. ("copy permalink" option) so the links don't' necessarily represent the actual state of the files... 
 <br/><br/> Warning ! if you download the repo and want to use it, the files ingored by the .gitignore files must be reinstalled or reconfigured :
 
-- tip : create a new laravel project with the same name and copy the files on the project downloaded whithout overwite data
+- tip : create a new laravel project with the same name and copy the files from the downloaded project on it with overwrite duplicated data
 - database.sqlite file -> need to be recreated and do "php artisan migrate" in the console
 - .env file ->  reconfigure the db sqlite
 
