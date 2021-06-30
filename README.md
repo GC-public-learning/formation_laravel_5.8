@@ -49,6 +49,7 @@ The formation consists to create chapter by chapter an application web with the 
 So i created a repos that containts an empty "Laravel" project that will be completed gradually.
 all the chapters are files.md in which you'll find the links of the modified files from the repos that containts the project "1st_laravel_project".
 <br/>Files are linked with the commit i used to close the chapter. ("copy permalink" option) so the links don't' necessarily represent the actual state of the files... 
+<br/> From the chapter 10, for easier understanding, all the instruction are noted in chronological order and the links that target the commits doesn't exist anymore.
 <br/><br/> Warning ! if you download the repo and want to use it, the files ingored by the .gitignore files must be reinstalled or reconfigured :
 
 - tip : create a new laravel project with the same name and copy the files from the downloaded project on it with overwrite duplicated data
