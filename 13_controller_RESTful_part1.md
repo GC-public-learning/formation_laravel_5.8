@@ -1,8 +1,6 @@
 
 # Controller RESTful part 1
 
-### the goal :  
-
 1) go to the controller documentation page from the Laravel site and take a look on the array with
 the differents actions available by the controller in order to modify our controller with more conventional ways
 <img src="https://github.com/Geoffrey-Carpentier/formation_laravel_5.8/blob/main/img/array_controller_actions.JPG" alt="array controller actions" width="800"><br/>
@@ -179,7 +177,7 @@ public function getStatusAttribute($attributes) {
 ~~~
 
 modified & created files :
-----------------
+--------------------------------
 1 created files and 5 modified files : 
 
 
