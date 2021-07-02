@@ -1,7 +1,7 @@
 
 # dbsqlite
 
-### using sqlite to manage db
+### the goal : using sqlite to manage db
 1) create database.sqlite file in the database folder
 2) modify ".env" file on the project root-> DB_CONNECTION=sqlite and delete the rest of DB params
 3) modify "php.ini" file on your php folder and active the line  -> extension=pdo_sqlite
