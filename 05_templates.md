@@ -1,7 +1,7 @@
 
 # templates
 
-### create layout and using bootstrap (library html, css, js) to use templates
+### the goal : create layout and using bootstrap (library html, css, js) to use templates
 
 ### to use bootstrap :
 - go to "get started" page on bootstrap site : https://getbootstrap.com/docs/5.0/getting-started/introduction/
