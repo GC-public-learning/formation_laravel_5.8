@@ -1,7 +1,7 @@
 
 # BelongsTo & HasMany
 
-### the goal :  create severals models and manage relations betweens them
+### the goal :  create severals models and manage relations between them
 
 1) create a new model "Company" with its migration file , open laragon terminal :
 ~~~
