@@ -1,7 +1,7 @@
 
 # Scope and mass assignement
 
-### the goal : create and use  personal methods to retrieve and insert data on the DB 
+### the goal : create and use  personalized methods to retrieve and insert data on the DB 
 
 1) create a scope method in the "customer model class" to retrieve filtred data from the db
 ~~~
