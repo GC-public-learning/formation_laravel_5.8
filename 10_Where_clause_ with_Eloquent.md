@@ -1,7 +1,7 @@
 
 # Where clause with Eloquent 
 
-the goal is to define a status for each customer in order to get a list of customers filtred by status.
+### the goal : define a status for each customer in order to get a list of customers filtred by status.
 
 1) add a new line in the "create customers tabble from the migration folder to integer the new row status
 2) as always in the Laragon terminal tape the command : php artisan:migrate refresh;
