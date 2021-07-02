@@ -1,6 +1,6 @@
 # routes
 
-the path for the views and texts to display must be configured on the "route" folder in the file "web.php"
+### the goal : the path for the views and texts to display must be configured on the "route" folder in the file "web.php"
 
 
 modified files :
