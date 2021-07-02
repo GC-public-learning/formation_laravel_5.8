@@ -1,9 +1,9 @@
 
 # Controller RESTful part 2
 
-### the goal : 
+### the goal : make the "show"view with its method on "CustomersController", its route and use "model binding"
 
-1) Add new route in "web.php" from "routes/" and use model binding:
+1) Add new route in "web.php" from "routes/" :
 ~~~
 // "customer" mean "id" of that last one
 Route::get('customers/{customer}', [CustomersController::class, 'show']);
