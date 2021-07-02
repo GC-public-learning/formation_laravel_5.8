@@ -1,7 +1,7 @@
 
 # Controller RESTful part 2
 
-### the goal : make the GET "customers/{customer}" route and use "model binding"
+### the goal : make the GET "/customers/{customer}" route and use "model binding"
 
 1) Add new route in "web.php" from "routes/" :
 ~~~
