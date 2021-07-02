@@ -1,7 +1,7 @@
 
 # add records in the db
 
-using models and post method to add new customers on the db
+### the goal : make the POST "/customers" route and use models to add new customers on the db
 
 
 modified files :
