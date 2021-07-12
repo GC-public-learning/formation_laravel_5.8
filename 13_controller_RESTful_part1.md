@@ -2,7 +2,7 @@
 
 # Controller RESTful part 1
 
-### the goal : make the GET "/customers/create" route for customers, modify the names of the CustomerController methods with conventional ways (index), define a personalized accessor for the status of customers
+### the goal : make the GET "customers/create" route for customers, modify the names of the CustomerController methods with conventional ways (index), define a personalized accessor for the status of customers
 
 1) go to the controller documentation page from the Laravel site and take a look on the array with
 the differents actions available by the controller in order to modify our controller with more conventional ways
