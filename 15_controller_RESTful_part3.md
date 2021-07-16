@@ -3,7 +3,7 @@
 ### the goal :
 ### make the PATCH "customers/{customer}" route and use "model binding"
 ### make the GET "customers/{customer}/edit" route
-### DELETE to finish....
+### make de DELETE "customers/{customer}" route
 
 1) cut this content on "create.blade.ph" from "views/customers/" and replace it by "@include('includes.form') :
 ~~~
