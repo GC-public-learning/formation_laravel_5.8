@@ -129,4 +129,22 @@ protected $attributes = [
   'status' = False;
 ];
 ~~~
-12)...
+12) add the destroy method on the "CustomerController"
+~~~
+public function destroy(Customer $customer) {
+	$customer->delete();
+	return redirect('/customers');
+}
+~~~
+13) on "show.blade.php" from "ressources/views/customers add a from with delete method :
+~~~
+<form action="/customers/{{ $customer->id }}" method="POST" style="display: inline;">
+	@csrf
+	@method('DELETE')
+	<button type="submit" class="btn btn-danger">delete</button>
+</form>
+~~~
+14) on "web.php from "routes/" add new url to destroy :
+~~~
+Route::delete('customers/{customer}', [CustomersController::class, 'destroy']);
+~~~
